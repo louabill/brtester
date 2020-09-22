@@ -1,0 +1,9 @@
+v 3
+d xmlappend: Append a sheet to an MS Excel XML workbook
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+d distribution date: 16apr2009
+f xmlappend.ado
+f xmlappend.sthlp
+e

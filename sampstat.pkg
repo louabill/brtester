@@ -1,0 +1,10 @@
+d sampstat: a command for sampling without replacement
+d Bill Rising
+d (at one time)
+d Dept. of Biostatistics 
+d Johns Hopkins University
+d
+d email: brising@@jhsph.edu
+f sampstat.ado
+f sampstat.hlp
+e

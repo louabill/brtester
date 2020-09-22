@@ -1,0 +1,8 @@
+v 3
+d classi: Immediate classification tables
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f classi.ado
+f classi.sthlp
+e

@@ -1,0 +1,18 @@
+v 3
+d Bill's Stata Extensions
+d Bill Rising
+d StataCorp LP
+d email: brising@stata.com
+d
+d ckvar {p 10 13 2}Allows validation rules to easily be defined and attached directly to variables. This has {net "describe ckvar, from(http://fmwww.bc.edu/RePEc/bocode/c)":moved to the ssc}.{p_end}
+
+p label_reverse Reverses value labels for poorly ordered ordinal variables.
+p reshape8 An improved reshape which really does preserve variable labels ... quite well
+p reshape7 A now-outdated improved reshape which preserves (most) variable labels when going from long to wide to long
+p slog A replacement for -log- which allows nested and linked log files
+p spearwt A slight modification for (an experimental) use of weights in Spearman's correlation
+p sphdist A package for computing distances on a sphere (in particular, on the Earth)
+p icd9x A program for marking observations on ICD-9 inclusion/exclusion criteria
+p sampstat The sampstat.ado file needed for Biostat 621 at Hopkins
+* p utils A collection of utilities for Stata
+* p workdays {p 10 13 2}An ado file which computes workday differences{p_end}

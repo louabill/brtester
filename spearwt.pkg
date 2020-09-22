@@ -1,0 +1,6 @@
+d spearwt A slight modification for (an experimental) use of weights in Spearman's correlation 
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f spearwt.ado
+e

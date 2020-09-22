@@ -1,0 +1,8 @@
+v 3
+d log2do: Converts Stata log files to do files
+d Bill Rising
+d StataCorp LP
+d email: brising at Stata dot com
+f log2do.ado
+f log2do.hlp
+e

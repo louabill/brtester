@@ -1,0 +1,15 @@
+v 3
+d workdays: a command for computing the number of elapsed workdays
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+d
+d Distribution-Date: 03jan2013
+d
+d Requires Stata 7
+d
+d If anyone wants to send along sets of holidays to be distributed
+d with this package, feel free!
+f workdays.ado
+f workdays.hlp
+e

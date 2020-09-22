@@ -1,0 +1,8 @@
+d sphdist: for computing distances on a sphere in general, and the Earth in particular
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f sphdist.ado
+f sphdist.hlp
+f deg2rad.ado
+e

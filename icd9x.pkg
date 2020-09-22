@@ -1,0 +1,12 @@
+v 3
+d icd9x: A program for marking observations on ICD-9 inclusion/exclusion 
+d          criteria. Good for marking observations with complex conditions.
+d Bill Rising
+d email: brising at stata dot com
+d
+d This program makes it simple to implement inclusion/exclusion criteria
+d when using multiple icd9 codes to classify disease
+d
+f icd9x.ado
+f icd9x.hlp
+e

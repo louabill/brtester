@@ -1,0 +1,82 @@
+{smcl}
+{hline}
+help for {hi:label_reverse}{right: Bill Rising}
+{hline}
+
+{title:Reversing Values and Labels}
+{* put the syntax in what follows. Don't forget to use [ ] around optional items}
+{p 8 14 2}
+   {cmd: label_reverse}
+   {cmd:,}
+   {cmd:old(}{it:oldlabelname}{cmd:)}
+	{cmd:new(}{it:newlabelname}{cmd:)}
+	[{c -(}  {cmd:min(}{it:value}{cmd:)} | {cmd:max(}{it:value}{cmd:)} {c )-}]
+{p_end}
+
+{title:Description}
+
+{p 4 4 2}
+{cmd:label_reverse} is a utility for reversing both the values and the value labels for an ordinal variable which is ordered poorly.
+This can be useful when cleaning up datasets.
+{p_end}
+
+{title:Options}
+
+{p 4 8 2}{cmd:old} gives the name of the old value label, which must be present in the dataset already.
+{p_end}
+
+{p 4 8 2}{cmd:new} gives the name of the new value label to be generated.
+This cannot exist already.
+{p_end}
+
+{p 4 8 2}{cmd:min} gives the minimum allowable value for the new value label.
+{p_end}
+
+{p 4 8 2}{cmd:max} gives the maximum allowable value for the value label.
+{p_end}
+
+{title:Example}
+	
+{p 4 8 2}For each of these examples, suppose that {cmd:bad_label} had been defined by the command{p_end}
+{p 6 10 2}{inp:. label define bad_label 1 "Always" 2 "Sometimes" 3 "Never"}{p_end}
+
+{p 4 8 2}{cmd:. label_reverse, old(bad_label) new(good_label)}{break}
+Creates the value label {cmd:good_label} as though it had been defined via{break}
+{inp:. label define good_label 1 "Never" 2 "Sometimes" 3 "Always"}
+{p_end}
+
+{p 4 8 2}{cmd:. label_reverse, old(bad_label) new(best_label) min(0)}{break}
+Creates the value label {cmd:best_label} as though it had been defined via{break}
+{inp:. label define good_label 0 "Never" 1 "Sometimes" 2 "Always"}
+{p_end}
+
+{p 4 8 2}{cmd:. label_reverse, old(bad_label) new(silly_label) max(8)}{break}
+Creates the value label {cmd:silly_label} as though it had been defined via{break}
+{inp:. label define silly_label 6 "Never" 7 "Sometimes" 8 "Always"}
+{p_end}
+
+{title:Also see}
+
+{p 4 13 2}
+Manual: {cmd:[R] label}
+{p_end}
+
+{p 4 13 2}	
+Online: help for {help label}
+{p_end}
+
+{title:Author}
+
+{p 4 4 2}
+Bill Rising{break}
+email: {browse "mailto:brising@louisville.edu":brising@louisville.edu}{break}
+web: {browse "http://www.louisville.edu/~wrrisi01":http://www.louisville.edu/~wrrisi01}
+{p_end}
+{p 4 8 2}
+snailmail:{break}
+Dept. of Bioinformatics and Biostatistics{break}
+University of Louisville{break}
+Louisville, KY 40292{break}
+{p_end}
+		
+{title:Last Updated}: May 3, 2004 @ 19:29:51

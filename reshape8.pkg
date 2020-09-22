@@ -1,0 +1,9 @@
+v 3
+d reshape8: An improved reshape which preserves variable labels 
+d             when going from long to wide to long
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f reshape8.ado
+f reshape8.hlp
+e

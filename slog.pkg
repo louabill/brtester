@@ -1,0 +1,10 @@
+v 3
+d slog:  A replacement for {help log} which allows nested and linked log files
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f slog.ado
+f slog.hlp
+f _pop.ado
+f _push.ado
+e

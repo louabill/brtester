@@ -1,0 +1,10 @@
+v 3
+d Splits a variable into its tokens (like tokenize does for a string)
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f vtokenize.ado
+f vtokenize.hlp
+f vgettoken.ado
+f vgettoken.hlp
+e

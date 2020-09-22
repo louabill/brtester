@@ -1,0 +1,10 @@
+v 2
+d label_reverse:  Reverses value labels for poorly ordered ordinal variables
+d Bill Rising
+d Dept. of Bioinformatics and Biostatistics
+d University of Louisville
+d
+d email: brising@louisville.edu
+f label_reverse.ado
+f label_reverse.hlp
+e

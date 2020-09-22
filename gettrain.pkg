@@ -1,0 +1,29 @@
+v 3
+d gettrain: Grab all the files from a training site
+d
+d The gettrain package has two components:
+d
+d {cmd:gettrain}
+d
+d Grabs all the files from a training site, based on the date. Before its
+d first use, it MUST be edited to point to your personal Sessions folder!!
+d
+d If you wish to grab things from -stage-, you must edit your tunnel or path
+d to it!!
+d
+d {cmd:getpkgs}
+d
+d is a more general utility for grabbing everything from a particular
+d Stata user's site by downloading everything in the stata.toc
+d
+d Requires: Stata 11.2
+d
+d Distribution-Date: 16oct2015
+d
+d
+d Bill Rising
+d StataCorp LP
+d email: brising at stata dot com
+f gettrain.ado
+f getpkgs.ado
+e

@@ -1,0 +1,53 @@
+v 3
+d ckvar Allows validation to easily be defined and attached directly to variables.
+d 
+d A system for storing validation or scoring rules with the variables
+d  in a dataset, and then running the validation or scoring. 
+d  By attaching the validation rules to the variables themselves, they 
+d  are available even if the dataset is merged, appended, or subsetted. 
+d  This beats having a codebook, because sharing the data means sharing 
+d  the validation as well.
+d
+d A dialog box is provided to make entering the validation rules quite 
+d  simple. A helper command allows saving the rules in a do-file for
+d  attaching to a similar dataset in the future.
+d
+d Distribution-Date: 19sep2007
+d
+d Bill Rising
+d StataCorp LP
+d email:brising at stata dot com
+f ckvar/_char2dlg.ado
+f ckvar/_ck4like.ado
+f ckvar/_ckneeded.ado
+f ckvar/_ckvarnext.ado
+f ckvar/_set2logic.ado
+f ckvar/_stata2logic.ado
+f ckvar/ckchar.hlp
+f ckvar/ckcharstub.ihlp
+f ckvar/ckcodebook.ado
+f ckvar/ckdrop.ado
+f ckvar/ckdrop.hlp
+f ckvar/ckdrop_vars.dlg
+f ckvar/ckkeep.ado
+f ckvar/ckkeep.hlp
+f ckvar/ckrename.ado
+f ckvar/ckrename.hlp
+f ckvar/ckvar.ado
+f ckvar/ckvar.hlp
+f ckvar/ckvar_overview.hlp
+f ckvar/ckvar_rule_syntax.ihlp
+f ckvar/ckvarclear.ado
+f ckvar/ckvarclear.hlp
+f ckvar/ckvardo.ado
+f ckvar/ckvardo.hlp
+f ckvar/ckvaredit.ado
+f ckvar/ckvaredit.dlg
+f ckvar/ckvaredit.hlp
+f ckvar/ckvareditSave.ado
+f ckvar/ckvarupdate.ado
+f ckvar/dochar.ado
+f ckvar/dochar.hlp
+f ckvar/docharedit.ado
+f ckvar/docharedit.hlp
+f ckvar/docharprog.hlp
